@@ -30,3 +30,6 @@ Use logic formulas to classify outcomes, assign grades, and combine conditions.
 5. Return **Excellent** if score is above 90 **and** attendance is above 95%; otherwise return **Standard**.
 
 ---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/841dc99d-6c01-4818-9736-63e507e8bfec" />
+
