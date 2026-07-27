@@ -6,13 +6,10 @@
 
 Learn how to identify the highest and lowest values in a range and use those results to answer business questions quickly. 
 
---- 
 
 ## The Tools 
 
 =MAX(range), =MIN(range) 
-
---- 
 
 ## Tasks 
 
