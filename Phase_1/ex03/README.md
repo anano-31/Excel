@@ -22,3 +22,5 @@ Retrieve values from structured tables using an exact or approximate match.
 5. Return **Not Found** when an ID lookup fails.
 
 ---
+
+<img width="1183" height="531" alt="image" src="https://github.com/user-attachments/assets/a1700faf-fcc0-4818-b07e-00f5802f97cc" />
