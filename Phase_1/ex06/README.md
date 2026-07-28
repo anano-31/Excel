@@ -23,4 +23,8 @@ Bar chart, Line chart, Pie chart, plus chart formatting options in Excel.
 
 ---
 
+<img width="594" height="360" alt="image(6)" src="https://github.com/user-attachments/assets/192436a5-f153-4bbd-bcab-235310d101fa" />
+<img width="601" height="357" alt="image(5)" src="https://github.com/user-attachments/assets/90a2ca49-0ec9-40a5-995d-9c526fc1bfac" />
+<img width="598" height="361" alt="image(4)" src="https://github.com/user-attachments/assets/af1affe9-db93-4fc9-950a-83a0aa8f03b9" />
+<img width="1752" height="734" alt="image(3)" src="https://github.com/user-attachments/assets/1216328c-fbd1-49df-9eaa-f8f3b3b534c8" />
 
