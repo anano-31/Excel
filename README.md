@@ -40,6 +40,8 @@ The objective is to improve my Excel and data analysis skills while preparing th
 
 ## Work Completed
 
+## Work Completed
+
 ### 1. Dataset Exploration
 
 * Reviewed all columns
@@ -71,9 +73,27 @@ The `waste_category` column contained inconsistent capitalization (for example, 
 
 Using Excel filters, I standardized the category names so identical values are represented consistently.
 
-### 5. Outlier Detection
+### 5. Corrected Incorrect Numeric Values
 
-Calculated the **Interquartile Range (IQR)** to detect potential outliers.
+After calculating the **Interquartile Range (IQR)** for the `meals_served` column, I noticed several values that appeared to contain an extra trailing zero.
+
+Using the **IF()** function, I divided only the suspected values by 10 while leaving all other values unchanged.
+
+### 6. Handled Extreme Temperature Values
+
+The `temperature_C` column contained unrealistic extreme values.
+
+Instead of deleting these observations, I calculated the average of the neighboring valid temperatures and used the **IF()** function to replace only the extreme values with the calculated mean.
+
+### 7. Checked for Duplicate Records
+
+To identify duplicate entries, I used the **COUNTIF()** function together with the `date` column.
+
+A small number of duplicate dates were found. After comparing the records, I determined that the rows contained only minor differences (decimals in temperature). I removed Duplicates.
+
+### 8. Outlier Detection
+
+Calculated the **Interquartile Range (IQR)** to identify potential outliers.
 
 Tasks performed:
 
@@ -82,7 +102,14 @@ Tasks performed:
 * Determined lower and upper bounds
 * Applied Conditional Formatting to highlight extreme values
 
-Outliers have been identified but not removed.
+The outliers have been identified but remain in the dataset for further investigation.
+
+### 9. Applied Conditional Formatting
+
+Applied Conditional Formatting to improve readability by highlighting:
+
+* Food waste (`food_waste_kg`)
+* Temperature (`temperature_C`)
 
 ---
 
@@ -98,18 +125,6 @@ Outliers have been identified but not removed.
 * Quartiles
 * Interquartile Range (IQR)
 * Outlier detection
-
----
-
-## Next Steps
-
-* Clean remaining formatting issues
-* Validate suspicious values
-* Handle missing values (if necessary)
-* Create descriptive statistics
-* Build charts and visualizations
-* Explore relationships between variables
-* Prepare the dataset for predictive modeling
 
 ---
 
